@@ -21,13 +21,11 @@ import {
     useTonConnectModal,
     useTonConnectUI
 } from '@townsquarelabs/ui-vue';
-import { toUserFriendlyAddress } from '@tonconnect/sdk';
 
 export default {
     setup() {
         const userFriendlyAddress = useTonAddress();
-        const wallet = useTonWallet();
-        const { open, close } = useTonConnectModal();
+        const { open } = useTonConnectModal();
         const [tonConnectUI] = useTonConnectUI();
 
         const logout = () => {
@@ -46,7 +44,3 @@ export default {
     }
 }
 </script>
-
-<style scoped>
-/* */
-</style>
