@@ -14,7 +14,7 @@ import {
     TonConnectUIProvider,
     TonConnectButton,
 } from '@townsquarelabs/ui-vue';
-import TheWelcomeVue from './Node/Welcome.vue';
+import TheWelcomeVue from './Welcome.vue';
 
 export default {
     components: {
