@@ -1,9 +1,0 @@
-@keyframes flash {
-    0% { background-color: rgba(0, 0, 0, 1); }
-    50% { background-color: rgba(139, 0, 0, 0.5); }
-    100% { background-color: rgba(0, 0, 0, 1); }
-}
-
-.lightning-bg {
-    animation: flash 1.5s infinite;
-}
